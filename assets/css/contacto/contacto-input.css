@@ -1,0 +1,21 @@
+.contacto__formulario__input {
+    margin:  .6rem auto;
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    border: 3px solid #AB987A;
+    background-color: #f5f5f5;
+    color: #0f1626;
+}
+
+@media screen and (max-width:768px){
+    .contacto__formulario__input{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:360px){
+    .contacto__formulario__input{
+        width: 80%;
+    }
+}

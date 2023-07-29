@@ -1,0 +1,10 @@
+.contacto__container__texto {
+    font-size: 1.3rem;
+    color: #0f1626;
+}
+
+@media screen and (max-width:360px){
+    .contacto__container__texto {
+        font-size: 1rem;
+    }
+}

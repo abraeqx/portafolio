@@ -1,0 +1,21 @@
+.formacion__titulo {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    color: inherit;
+}
+
+@media screen and (max-width:768px){
+    .formacion__titulo {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+}
+
+/*  */
+@media screen and (max-width:360px) {
+    .formacion__titulo {
+        font-size: 2rem;
+    }
+}
