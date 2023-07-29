@@ -1,0 +1,13 @@
+.formacion__card__subtitulo {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width:768px){
+    .formacion__card__subtitulo {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

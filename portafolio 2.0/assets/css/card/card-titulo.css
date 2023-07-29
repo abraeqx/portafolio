@@ -1,0 +1,11 @@
+.card__titulo {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+ @media screen and (max-width:768px){
+    .card__titulo {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+ }

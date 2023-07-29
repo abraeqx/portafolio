@@ -1,0 +1,13 @@
+.experiencia__imagen {
+    width: 50%;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 3px solid #AB987A;
+}
+
+@media screen and (max-width:768px){
+    .experiencia__imagen {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

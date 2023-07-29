@@ -1,0 +1,40 @@
+.hero__links {
+    display: flex;
+    gap: 9rem;
+    margin-top: 3rem;
+}
+
+.hero__link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0f1626;
+}
+
+.hero__link:hover {
+    color: #ff533d;
+}
+
+@media screen and (max-width:768px){
+    .hero__links {
+        padding-left: 2rem;
+        gap: 6rem;
+    }
+    
+    .hero__link {
+        font-size: 1.2rem;
+    }
+}
+
+/*  */
+
+@media screen and (max-width:360px) {
+    .hero__links {
+        gap: 3rem;
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    .hero__link {
+        font-size: 1rem;
+    }
+}
