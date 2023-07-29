@@ -1,0 +1,28 @@
+.menu {
+    width: 35%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (min-width:0){
+    .link__secret {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    .menu {
+        display: none;
+    }
+
+    .link__secret {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+}
+
+/*  */

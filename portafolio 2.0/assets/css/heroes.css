@@ -1,0 +1,25 @@
+.heroes {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 6rem;
+    height: 50vh;
+    background-color: #f5f5f5;
+    color: #333a56;
+}
+
+@media screen and (max-width:768px) {
+    .heroes {
+        height: 50vh;
+    }
+}
+
+/*  */
+
+@media screen and (max-width:360px) {
+    .heroes {
+        height: 40vh;
+        gap: 0rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
